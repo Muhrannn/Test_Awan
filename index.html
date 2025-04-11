@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Index JS Sederhana</title>
+</head>
+<body>
+  <h1 id="title">Loading...</h1>
+
+  <script>
+    // JavaScript langsung di sini
+    console.log("Hello from index.js!");
+
+    function greet(name) {
+      return `Hello, ${name}!`;
+    }
+
+    // Tampilkan di browser
+    const titleElement = document.getElementById("title");
+    titleElement.textContent = greet("User");
+  </script>
+</body>
+</html>
